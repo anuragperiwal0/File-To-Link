@@ -74,7 +74,7 @@ Press the below button to Fast deploy on Heroku
 
 
 ```py
-git clone https://github.com/AM-ROBOTS/File-To-Link
+git clone https://github.com/anuragperiwal0/File-To-Link
 cd File-To-Link
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
