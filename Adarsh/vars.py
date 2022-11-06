@@ -14,7 +14,7 @@ class Var(object):
     BOT_TOKEN = str(getenv('BOT_TOKEN', '5735446073:AAFlSXk_I8B-YEQMH6vStsjeyvxbg6SyBw0'))
     name = str(getenv('SESSION_NAME', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
-    WORKERS = int(getenv('WORKERS', '4'))
+    WORKERS = int(getenv('WORKERS', '1'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001527701055'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
