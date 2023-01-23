@@ -74,12 +74,14 @@ Press the below button to Fast deploy on Heroku
 
 
 ```py
+apt install git
+apt install python3-pip
 git clone https://github.com/anuragperiwal0/File-To-Link
 cd File-To-Link
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
-python3 -m Adarsh
+nohup python3 -m Adarsh &
 ```
 
 and to stop the whole bot,
